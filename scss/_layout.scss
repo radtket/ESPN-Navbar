@@ -1,0 +1,117 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.container {
+	@include outer-container;
+	background: #272727;
+	position: relative;
+	z-index: 1000044;
+}
+
+$focused: #7b7b7b;
+$white: #fff;
+
+.global-header {
+	position: relative;
+	width: 100%;
+
+	.logo-wrap {
+		@include margin(0 20px 0 0);
+		float: left;
+
+		&::before {
+			background: #c00;
+
+			@include media(1145px) {
+				content: '';
+				display: block;
+				height: 50px;
+				position: absolute;
+				top: 0;
+				transform: skew(-25deg, 0);
+				width: 110px;
+			}
+		}
+
+		&::after {
+			background: #b00000;
+			content: '';
+			display: block;
+			height: 50px;
+			left: -10px;
+			position: absolute;
+			top: 0;
+			transform: skew(-25deg, 0);
+			width: 130px;
+			z-index: -1;
+		}
+
+		a {
+			background-size: 82px 20px;
+			width: 110px;
+			background-image: url(../img/logo.png);
+			background-position: center center;
+			background-repeat: no-repeat;
+			color: transparent;
+			font: 0/0 a;
+			text-shadow: none;
+			display: block;
+			height: 50px;
+			position: relative;
+		}
+	}
+}
+
+nav.global-nav {
+	backface-visibility: hidden;
+	transition: all .25s ease-in-out;
+	background: #272727;
+	// box-shadow: 0 4px 2px -2px rgba(0,0,0,0.3);
+	height: 50px;
+	overflow: visible;
+	z-index: 1000039;
+	float: left;
+
+	ul {
+		@include clearfix;
+		display: block;
+		font-size: 16px;
+		max-width: 786px;
+		padding-left: 26px;
+		padding-right: 0 !important;
+
+		li {
+			display: inline-block;
+			line-height: 50px;
+			list-style-type: none;
+			text-align: center;
+
+			&.pillar {
+				float: right;
+			}
+
+			a {
+				@include padding(0 10px);
+				transition: all .25s ease-in-out;
+				outline: none;
+				cursor: pointer;
+				display: block;
+				position: relative;
+				color: $white;
+				text-decoration: none;
+			}
+		}
+	}
+}
