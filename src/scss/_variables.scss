@@ -1,0 +1,34 @@
+// Typography
+$base-font-family: Arial;
+
+// Font Sizes
+$base-font-size: 1em;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+
+// Colors
+$dark-gray: #272727;
+$medium-gray:#7b7b7b;
+$light-gray: #dddddd;
+
+$color-white: #ffffff;
+$color-red: #cc0000;
+$color-red--dark: #b00000;
+
+// Nav Colors
+$color-nav-bg: $dark-gray;
+$color-nav-focused: $medium-gray;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $color-red;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
