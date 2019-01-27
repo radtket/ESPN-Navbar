@@ -7,8 +7,6 @@ Dun-dun-dun-DUN! Dun-dun-dun-DUN!
 
 ## Getting started
 
-Install the starter using Gatsby Cli `gatsby new` command.
-
 ### Clone repo
 
 ``` bash
