@@ -1,5 +1,5 @@
 {
-  "name": "ESPN-Navbar",
+  "name": "espn-navbar",
   "version": "1.0.0",
   "main": "docs/index.html",
   "scripts": {
@@ -10,12 +10,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/radtket/ESPN-Navbar.git"
+    "url": "git+https://github.com/radtket/espn-navbar.git"
   },
   "bugs": {
-    "url": "https://github.com/radtket/ESPN-Navbar/issues"
+    "url": "https://github.com/radtket/espn-navbar/issues"
   },
-  "homepage": "https://github.com/radtket/ESPN-Navbar#readme",
+  "homepage": "https://github.com/radtket/espn-navbar#readme",
   "devDependencies": {
     "autoprefixer": "^9.4.5",
     "babel-cli": "^6.26.0",
