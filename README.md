@@ -1,6 +1,6 @@
 # ESPN Navbar
 
-A little side project to relicate ESPN's hover effect on their navbar
+A little side project to replicate ESPN's hover effect on their navbar
 Dun-dun-dun-DUN! Dun-dun-dun-DUN!
 
 **Live demo:**  [https://radtket.github.io/espn-navbar/](https://radtket.github.io/espn-navbar/)
